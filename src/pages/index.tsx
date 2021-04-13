@@ -31,10 +31,12 @@ export default function Home() {
               Fique de olho nos jogos, e nas estatísticas <br /> <span>e aumente suas chances de ganhar!</span>
             </p>
 
-            <button>
-              <img src="/instagram.svg" alt="instagram" />
-              ACESSE NOSSAS REDES
-            </button>
+            <a href="https://www.instagram.com/piauisport/">
+              <button>
+                <img src="/instagram.svg" alt="instagram" />
+                ACESSE NOSSAS REDES
+              </button>
+            </a>
 
           </main>
 
@@ -55,7 +57,7 @@ export default function Home() {
             <p>TODA QUARTA E SABADO ESTATÍSTICAS DE JOGOS</p>
             <span>Caso tenha dúvidas entre em contato com nossa equipe</span>
             <Link href="#">
-              <a><img src="/whatsapp.svg" alt="whatsapp"/> <span>86 9 9402-0048</span> </a>
+              <a><img src="/whatsapp.svg" alt="whatsapp" /> <span>86 9 9402-0048</span> </a>
             </Link>
           </div>
 

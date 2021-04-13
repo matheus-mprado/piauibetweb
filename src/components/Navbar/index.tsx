@@ -8,7 +8,7 @@ export function Navbar() {
                 <Link href="/">
                     <a> <img src="/piauibet copiar.svg" alt="logo" /> </a>
                 </Link>
-                
+
 
                 <div>
                     <div>
@@ -16,11 +16,11 @@ export function Navbar() {
                             <a> Apostas </a>
                         </Link>
 
-                        <Link href="#">
+                        <Link href="https://piauibets.wba.bet/">
                             <a> Como funciona </a>
                         </Link>
 
-                        <Link href="#">
+                        <Link href="https://piauibets.wba.bet/regras">
                             <a> Políticas de Aposta </a>
                         </Link>
                     </div>
@@ -30,10 +30,12 @@ export function Navbar() {
                    LOGIN</p>
                     </div>
 
-
-                    <button>
-                        APOSTAR
+                    <a href="https://piauibets.wba.bet/">
+                        <button>
+                            APOSTAR
                     </button>
+                    </a>
+
                 </div>
             </div>
 
