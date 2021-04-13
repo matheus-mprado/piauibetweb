@@ -42,12 +42,13 @@ export default function Home() {
         </div>
 
         <div className={styles.footerHeader}>
-          <div>
+          <div className={styles.avatarDiv}>
             <div className={styles.avatar}>
               <img src="/shield.svg" alt="segurança" />
               <p>UTILIZADO E COMPROVADO POR DIVERSOS APOSTADORES</p>
             </div>
             <img className={styles.avatarImg} src="/avatares.svg" alt="avatares" />
+            <img className={styles.avatarImg2} src="/avatares2.svg" alt="avatares" />
           </div>
 
           <div>

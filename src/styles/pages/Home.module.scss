@@ -13,6 +13,10 @@
   align-items: flex-start;
   justify-content: space-between;
 
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+
   h1 {
     margin-top: 1.5rem;
     font-size: 4rem;
@@ -104,11 +108,16 @@
 .footerHeader {
   max-width: 1220px;
   margin: 0 auto 2rem;
+  padding: 0 1rem;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 
   div:last-child {
     display: flex;
@@ -133,8 +142,8 @@
 
         transition: color 0.2s;
 
-        &:hover{
-            color:var(--title);
+        &:hover {
+          color: var(--title);
         }
       }
     }
@@ -151,11 +160,42 @@
   }
 }
 
+.avatarDiv {
+  @media (max-width: 600px) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 2rem;
+  }
+
+  div {
+    margin: 0 0 1rem;
+  }
+}
+
 .avatarImg {
   height: 50px;
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.avatarImg2 {
+  height: 150px;
+  display: none;
+  @media (max-width: 600px) {
+    display: inline;
+  }
 }
 
 .primaryImg {
   height: 500px;
   margin-top: -4rem;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+  }
 }
